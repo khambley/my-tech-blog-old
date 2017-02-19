@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widgets>
+  <widget id="42fcbe7c-2c9c-440a-bad9-65a94472fccc" title="Administration" showTitle="True">Administration</widget>
+  <widget id="fb38ecdd-5813-4d10-8c5f-8d901c7c731e" title="Search" showTitle="False">Search</widget>
+  <widget id="dd0a6215-8f33-441e-83c8-9f2ae0abae27" title="Category list" showTitle="True">Category list</widget>
+  <widget id="34d50201-3a28-47f8-a728-e12716cd9fe7" title="BlogRoll" showTitle="True">Blogroll</widget>
+  <widget id="b413d5c2-c90b-4066-8d00-fa49248e06ea" title="Link List" showTitle="True">LinkList</widget>
+</widgets>

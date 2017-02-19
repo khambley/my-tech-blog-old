@@ -1,0 +1,133 @@
+﻿/* Developer: Katherine Hambley
+   Website: www.khambley.com
+   My blog and projects site
+    Date: 3/24/2015
+*/
+
+.gray-bg {
+    background-color: #e1dede;
+    
+}
+.imagebox {
+    margin-top: 5%;
+}
+.intro {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #e1dede;
+}
+.override {
+    margin-top: 3%;
+    margin-right: 75px;
+    padding-left: 0px;
+    border-radius: 0px;
+   
+}
+.contentContainer {
+    min-height: 700px;
+}
+.sidebar {
+    /*font-size: 0.72727rem;*/
+    
+    position: fixed;
+    text-align: center;
+    background: #2980b9;
+    height: 100%;
+    overflow: scroll;
+    
+}
+.navbar-inverse {
+    background-color: #2980b9;
+}
+ul.menu {
+    list-style: none;
+   padding-left: 10px;
+}
+
+.navbar-inverse .menu > li > a {
+    color: #fff;
+    }
+.widget.categorylist {
+    background-color: #2980b9;
+    color: #fff;
+}
+.widget.categorylist h4 {
+    color: #fff;
+}
+.widget.categorylist div > ul > li > a {
+    color: #fff;
+}
+.header .nav > li > a {
+    /*text-align: center;*/
+}
+.navbar {
+   border: 0px;
+}
+.header .navbar {
+    height: 100%;
+}
+img {
+    padding: 10px 5px 10px 5px;
+}
+.profile {
+    color: #fff;
+    padding: 15px;
+}
+.profile img {
+    margin-top: 3%;
+    width: 150px;
+}
+.no-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+} 
+@media (min-width: 768px) {
+  .navbar-collapse {
+    height: auto;
+    border-top: 0;
+    box-shadow: none;
+    max-height: none;
+    padding-left:0;
+    padding-right:0;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    width: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .navbar-collapse.in {
+    overflow-x: visible;
+  }
+
+.navbar
+{
+	/*max-width:300px;*/
+	margin-right: 0;
+	margin-left: 0;
+    
+}	
+
+.navbar-nav,
+.navbar-nav > li,
+.navbar-left,
+.navbar-right,
+.navbar-header
+{float:none !important;}
+
+.navbar-right .dropdown-menu {left:0;right:auto;}
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+}
+@media screen and (max-width: 760px) {
+    .sidebar {
+        position: static;
+        width: 100%;
+    }
+    .pull-right {
+        float: none!important;
+    }
+    .profile {
+        margin-top: 3%;
+    }
+}
